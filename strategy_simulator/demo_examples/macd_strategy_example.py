@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-import pandas as pd
-from Strategy_Simulator.trade_engine import TradingEngine
+from strategy_simulator.core.trade_engine import TradingEngine
 
 
 def calculate_macd(data, short_period=12, long_period=26, signal_period=9):
@@ -40,7 +39,7 @@ def macd_strategy(trading_engine):
 
 def main():
 
-    # User Note: Initialize the trading engine with your params for data_provider, ticker, start_date, end_date,
+    # User Note: Initialize the trading core with your params for data_provider, ticker, start_date, end_date,
     # candle_aggregation, starting_balance, and shares below.
     engine = TradingEngine(
         data_provider="yahoo",
