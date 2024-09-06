@@ -1,11 +1,11 @@
-from .data import DataEngine
-from .trade_simulator import TradeSimulator
-from .account_manager import AccountManager
-from .parser import StrategyParser
-from ..data_sources.yahoo import YahooDataSource
-from ..config import DEFAULT_CONFIG
-from ..cli.cli_output import CLIOutput
-from ..engine.charting import TradeChart
+from Strategy_Simulator.engine.data import DataEngine
+from Strategy_Simulator.engine.trade_simulator import TradeSimulator
+from Strategy_Simulator.engine.account_manager import AccountManager
+from Strategy_Simulator.engine.parser import StrategyParser
+from Strategy_Simulator.data_sources.yahoo import YahooDataSource
+from Strategy_Simulator.config import DEFAULT_CONFIG
+from Strategy_Simulator.cli.cli_output import CLIOutput
+from Strategy_Simulator.engine.charting import TradeChart
 
 class TradingEngine:
     def __init__(self, data_provider=None, ticker=None, start_date=None, end_date=None, candle_aggregation=None,

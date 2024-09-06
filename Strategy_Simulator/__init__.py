@@ -1,1 +1,1 @@
-from .engine.trade_engine import TradingEngine
+from Strategy_Simulator.trade_engine import TradingEngine

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import pandas as pd
-from Strategy_Simulator.engine.trade_engine import TradingEngine
+from Strategy_Simulator.trade_engine import TradingEngine
 
 
 def calculate_macd(data, short_period=12, long_period=26, signal_period=9):
