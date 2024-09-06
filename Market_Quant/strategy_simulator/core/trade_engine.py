@@ -1,10 +1,10 @@
-from strategy_simulator.core.data import DataEngine
-from strategy_simulator.core.trade_simulator import TradeSimulator
-from strategy_simulator.core.account_manager import AccountManager
-from strategy_simulator.core.data_sources.yahoo import YahooDataSource
-from strategy_simulator.core.config import DEFAULT_CONFIG
-from strategy_simulator.core.cli.cli_output import CLIOutput
-from strategy_simulator.core.charting import TradeChart
+from Market_Quant.strategy_simulator.core.data import DataEngine
+from Market_Quant.strategy_simulator.core.trade_simulator import TradeSimulator
+from Market_Quant.strategy_simulator.core.account_manager import AccountManager
+from Market_Quant.strategy_simulator.core.data_sources.yahoo import YahooDataSource
+from Market_Quant.strategy_simulator.core.config import DEFAULT_CONFIG
+from Market_Quant.strategy_simulator.core.cli.cli_output import CLIOutput
+from Market_Quant.strategy_simulator.core.charting import TradeChart
 
 class TradingEngine:
     def __init__(self, data_provider=None, ticker=None, start_date=None, end_date=None, candle_aggregation=None,
