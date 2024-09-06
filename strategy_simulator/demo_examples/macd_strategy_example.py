@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from strategy_simulator.core.trade_engine import TradingEngine
+from MarketQuant.strategy_simulator import TradingEngine
 
 
 def calculate_macd(data, short_period=12, long_period=26, signal_period=9):
