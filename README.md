@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/pypi/v/schwabdev" alt="PyPI - Version"/> 
+  <img src="https://img.shields.io/pypi/v/marketquant" alt="PyPI - Version"/> 
   <img src="https://img.shields.io/pypi/dm/marketquant" alt="PyPI - Downloads"/> 
   <a href="https://paypal.me/maxheltzel2?country.x=US&locale.x=en_US">
     <img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate"/>
