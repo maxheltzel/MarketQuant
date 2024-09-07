@@ -12,54 +12,33 @@
 
 ---
 
-This is the official and updated python MarketQuant repository.
+This is the official and updated Python MarketQuant repository.
 
 ## Installation 
 `pip install MarketQuant matplotlib numpy pandas mplfinance scipy mplcursors yfinance`  
 *You may need to use `pip3` instead of `pip`*
 
-## Quick setup
-1. Setup your Schwab developer account [here](https://beta-developer.schwab.com/).
-   - Create a new Schwab individual developer app with callback url "https://127.0.0.1" (case sensitive) 
-   - Wait until the status is "Ready for use", note that "Approved - Pending" will not work.
-   - Enable TOS (Thinkorswim) for your Schwab account, it is needed for orders and other api calls.
-2. Install packages
-   - Install schwabdev and requirements `pip install schwabdev requests websockets`
-   - *You may need to use `pip3` instead of `pip`*
-3. Examples on how to use the client are in the `examples/` folder (add your keys in the .env file)  
-   - The first time you run you will have to sign in to your Schwab account using the generated link in the terminal. After signing in, agree to the terms, and select account(s). Then you will have to copy the link in the address bar and paste it into the terminal. 
-   - Questions? - maxheltzel6@gmail.com.  
-```py
-import schwabdev #import the package
-
-client = schwabdev.Client('Your app key', 'Your app secret')  #create a client
-
-print(client.account_linked().json()) #make api calls
-```
-
 ## What can this program do?
- - Authenticate and access the api 
- - Auto "access token" updates.
- - Functions for all api functions (examples in `examples/api_demo.py`)
- - Stream real-time data with a customizable response handler (examples in `examples/stream_demo.py`)
+ - Build and simulate trading strategies using the TradingEngine class.
+ - Charts your trades and outputs your strategy performance.
+ - Extensible Framework to allow for complete customization
+ - Constantly adding more tools and features.
+
  ### TBD 
- - Paper trading client
- - Automatic refresh token updates. (Waiting for Schwab implementation)
+ - Paper trading client.
+ - Charles Schwab API implementation to the Data Engine for the Simulator.
+ - Bring over and configure quantitative tools to the repo.
+ - Add YouTube tutorials for the library.
+
 ### Notes
-The schwabdev folder contains code for main operations:     
- - `api.py` contains functions relating to api calls, requests, and automatic token checker threads.
- - `stream.py` contains functions for streaming data from websockets.
+The MarketQuant folder has all the code for the repo.
 
 ## Youtube Tutorials
-1. [Authentication and Requests](https://www.youtube.com/watch?v=kHbom0KIJwc&ab_channel=TylerBowers) *Github code has significantly changed since this video*
-2. [Streaming Real-time Data](https://www.youtube.com/watch?v=t7F2dUecgWc&list=PLs4JLWxBQIxpbvCj__DjAc0RRTlBz-TR8&index=2&ab_channel=TylerBowers)
+1. To be added.
 
-## MIT License
+### Mozilla Public License 2.0
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+https://mozilla.org/MPL/2.0/
+
+Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
