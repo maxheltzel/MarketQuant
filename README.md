@@ -1,5 +1,5 @@
 # Schwab-API-Python
-![PyPI - Version](https://img.shields.io/pypi/v/schwabdev) ![PyPI - Downloads](https://img.shields.io/pypi/dm/marketquant) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?business=8VDFKHMBFSC2Q&no_recurring=0&currency_code=USD)
+![PyPI - Version](https://img.shields.io/pypi/v/schwabdev) ![PyPI - Downloads](https://img.shields.io/pypi/dm/marketquant) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)]([https://www.paypal.com/donate/?business=8VDFKHMBFSC2Q&no_recurring=0&currency_code=USD](https://paypal.me/maxheltzel2?country.x=US&locale.x=en_US))
 
 This is the official and updated python MarketQuant repository.
 
@@ -17,7 +17,7 @@ This is the official and updated python MarketQuant repository.
    - *You may need to use `pip3` instead of `pip`*
 3. Examples on how to use the client are in the `examples/` folder (add your keys in the .env file)  
    - The first time you run you will have to sign in to your Schwab account using the generated link in the terminal. After signing in, agree to the terms, and select account(s). Then you will have to copy the link in the address bar and paste it into the terminal. 
-   - Questions? - join the [Discord group](https://discord.gg/m7SSjr9rs9).  
+   - Questions? - maxheltzel6@gmail.com.  
 ```py
 import schwabdev #import the package
 
