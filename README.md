@@ -1,3 +1,7 @@
+Here is the corrected format for your README file with all the necessary labels:
+
+markdown
+Copy code
 # MarketQuant
 ![PyPI - Version](https://img.shields.io/pypi/v/marketquant) ![PyPI - Downloads](https://img.shields.io/pypi/dm/marketquant) ![Read the Docs](https://img.shields.io/readthedocs/marketquant?style=flat)  
 A quantitative market analysis tool builder library.
@@ -7,22 +11,22 @@ A quantitative market analysis tool builder library.
 ---
 
 ## Installation 
-`pip install marketquant`  
-*You may need to use `pip3` instead of `pip`*
+```bash
+pip install marketquant
+You may need to use pip3 instead of pip
 
----
-
-## Quick setup
-1. Set up your developer account or API access.
-   - You may need to configure your data provider keys in a `.env` file.
-2. Install packages
-   - Install `marketquant` and any required dependencies:
-     ```sh
-     pip install marketquant
-     ```
-   - *You may need to use `pip3` instead of `pip`*
-3. Examples of how to use the client are in the `examples/` folder (add your keys in the `.env` file).  
-```python
+Quick setup
+Set up your developer account or API access.
+You may need to configure your data provider keys in a .env file.
+Install packages
+Install marketquant and any required dependencies:
+bash
+Copy code
+pip install marketquant
+You may need to use pip3 instead of pip
+Examples of how to use the client are in the examples/ folder (add your keys in the .env file).
+python
+Copy code
 import marketquant
 
 engine = marketquant.TradingEngine(
@@ -54,9 +58,9 @@ Contact
 Max Heltzel - maxheltzel@gmail.com
 Project Link: https://github.com/maxheltzel/MarketQuant
 
-python
+markdown
 Copy code
 
 ### Notes:
-- Replace the `marketquant` with your project’s name or any other identifiers.
-- Ensure that all provided links (e.g., GitHub, PyPI, YouTube) match the real ones.
+- Make sure to replace `marketquant` with the actual project name and correct links where necessary.
+- This format should now properly display all the shields, sections, and instructions.
