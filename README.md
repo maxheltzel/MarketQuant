@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://example.com/logo.png" alt="MarketQuant Logo" width="200"/>
+  <img src="[https://example.com/logo.png](https://github.com/maxheltzel/MarketQuant/blob/main/Market_Quant/Market%20Quant.png?raw=true)" alt="MarketQuant Logo" width="200"/>
 </p>
 
 <h1 align="center">MarketQuant</h1>
