@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="https://github.com/maxheltzel/MarketQuant/blob/main/Market_Quant/Market%20Quant.png?raw=true" alt="MarketQuant Logo" width="200"/>
+  <img src="https://github.com/maxheltzel/MarketQuant/blob/main/Market_Quant/Market%20Quant.png?raw=true" alt="MarketQuant Logo" width="400"/>
 </p>
-
-<h1 align="center">MarketQuant</h1>
 
 ![PyPI - Version](https://img.shields.io/pypi/v/schwabdev) ![PyPI - Downloads](https://img.shields.io/pypi/dm/marketquant) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/maxheltzel2?country.x=US&locale.x=en_US)
 
