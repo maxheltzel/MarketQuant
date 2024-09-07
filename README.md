@@ -1,5 +1,6 @@
-# Schwab-API-Python
-![PyPI - Version](https://img.shields.io/pypi/v/schwabdev) ![PyPI - Downloads](https://img.shields.io/pypi/dm/marketquant) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)]([https://www.paypal.com/donate/?business=8VDFKHMBFSC2Q&no_recurring=0&currency_code=USD](https://paypal.me/maxheltzel2?country.x=US&locale.x=en_US))
+# MarketQuant
+![PyPI - Version](https://img.shields.io/pypi/v/schwabdev) ![PyPI - Downloads](https://img.shields.io/pypi/dm/marketquant) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/maxheltzel2?country.x=US&locale.x=en_US)
+
 
 This is the official and updated python MarketQuant repository.
 
