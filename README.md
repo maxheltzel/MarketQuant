@@ -10,7 +10,7 @@
   </a>
 </p>
 
-###
+---
 
 This is the official and updated python MarketQuant repository.
 
