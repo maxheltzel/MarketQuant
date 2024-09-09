@@ -5,7 +5,7 @@
 
 """
 
-from Market_Quant.strategy_simulator import TradingEngine
+from marketquant.strategy_simulator import TradingEngine
 from strategies.macd_strategy import MACDStrategy
 
 def main():

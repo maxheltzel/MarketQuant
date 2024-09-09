@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="MarketQuant",
-    version="0.3.5",
+    name="marketquant",
+    version="0.4.0",
     author="Max Heltzel",
     author_email="maxheltzel6@gmail.com",
     description="A quantitative market analysis tool builder library",

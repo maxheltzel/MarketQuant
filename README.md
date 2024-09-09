@@ -18,6 +18,22 @@ This is the official and updated Python MarketQuant repository.
 `pip install MarketQuant matplotlib numpy pandas mplfinance scipy mplcursors yfinance`  
 *You may need to use `pip3` instead of `pip`*
 
+
+## Schwab Quick setup
+1. Setup your Schwab developer account [here](https://beta-developer.schwab.com/).
+   - Create a new Schwab individual developer app with callback url "https://127.0.0.1" (case sensitive) 
+   - Wait until the status is "Ready for use", note that "Approved - Pending" will not work.
+   - Enable TOS (Thinkorswim) for your Schwab account, it is needed for orders and other api calls.
+2. Install packages
+   - Install schwabdev and requirements `pip install schwabdev requests websockets`
+   - *You may need to use `pip3` instead of `pip`*
+3. Why do I need to do this?
+   - This will allow you to utilize the streaming and data tools that require a more nuanced data provider.
+   - More data providers will be added in future updates.
+   - You do not need a schwab account to utilize the Strategy Simulator. This uses data derived from Yahoo.
+
+
+
 ## What can this program do?
  - Build and simulate trading strategies using the TradingEngine class.
  - Charts your trades and outputs your strategy performance.

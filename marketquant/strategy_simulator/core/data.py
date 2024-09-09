@@ -1,6 +1,6 @@
 from functools import lru_cache
 import pandas as pd
-from Market_Quant.strategy_simulator.core.cli.cli_output import CLIOutput
+from marketquant.strategy_simulator.core.cli.cli_output import CLIOutput
 
 class DataEngine:
     def __init__(self, data_source):
