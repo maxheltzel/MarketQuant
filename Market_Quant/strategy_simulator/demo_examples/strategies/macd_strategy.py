@@ -1,4 +1,4 @@
-from indicators.macd_indicator import MACDIndicator
+from ..indicators.macd import MACDIndicator
 
 class MACDStrategy:
     def __init__(self, trading_engine, macd_params=None):
