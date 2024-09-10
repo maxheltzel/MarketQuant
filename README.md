@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/maxheltzel/MarketQuant/blob/main/Market_Quant/MarketQuant_Logo.png?raw=true" width="300"/>
+  <img src="https://github.com/maxheltzel/MarketQuant/blob/main/marketquant/MarketQuant_Logo.png?raw=true" width="300"/>
 </p>
 
 <p align="center">
