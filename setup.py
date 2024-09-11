@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="marketquant",
-    version="0.4.0",
+    version="0.4.2",
     author="Max Heltzel",
     author_email="maxheltzel6@gmail.com",
     description="A quantitative market analysis tool builder library",
@@ -24,7 +24,9 @@ setup(
         "yfinance",
         "numpy",
         "websockets",
-        "requests"
+        "requests",
+        "python-dotenv",
+        "scipy",
 
     ],
     classifiers=[
