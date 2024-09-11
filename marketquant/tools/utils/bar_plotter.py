@@ -76,7 +76,7 @@ class BarPlotter:
         Add the MarketQuant logo to the bottom left of the chart.
         :param ax: The axis to add the logo to.
         """
-        logo_path = 'MarketQuant_Logo.png'  # Fixed logo path
+        logo_path = 'marketquant/MarketQuant_Logo.png'
         if os.path.exists(logo_path):
             img = plt.imread(logo_path)
             imagebox = OffsetImage(img, zoom=0.1, alpha=0.8)

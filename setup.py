@@ -10,7 +10,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/maxheltzel/MarketQuant",
     project_urls={
-        "Documentation": "https://example.com",
+        "Documentation": "https://market-quant.gitbook.io/home/",
         "Source Code": "https://github.com/maxheltzel/MarketQuant",
         "Issue Tracker": "https://github.com/maxheltzel/MarketQuant/issues",
         "Personal Website": "https://maxheltzel.net"
