@@ -15,7 +15,7 @@
 This is the official and updated Python MarketQuant repository.
 
 ## Installation 
-`pip install MarketQuant matplotlib numpy pandas mplfinance scipy mplcursors yfinance`  
+`pip install MarketQuant`  
 *You may need to use `pip3` instead of `pip`*
 
 
