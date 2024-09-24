@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/pypi/v/marketquant" alt="PyPI - Version"/> 
-  <img src="https://img.shields.io/pypi/dt/marketquant" alt="PyPI - Total Downloads"/> 
+  <img src="https://pepy.tech/badge/marketquant" alt="Downloads"> 
   <a href="https://paypal.me/maxheltzel2?country.x=US&locale.x=en_US">
     <img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate"/>
   </a>
@@ -12,7 +12,7 @@
 
 ---
 
-This is the official and updated Python MarketQuant repository. 
+This is the official and updated Python MarketQuant repository.
 
 ## Installation 
 `pip install MarketQuant matplotlib numpy pandas mplfinance scipy mplcursors yfinance`  
