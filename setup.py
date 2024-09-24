@@ -30,7 +30,8 @@ setup(
         "plotly",
         "hurst",
         "joblib",
-        "json"
+        "json",
+        "statsmodels"
 
     ],
     classifiers=[
