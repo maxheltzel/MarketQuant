@@ -155,10 +155,5 @@ class MeanAnalyzer:
         fig.show()
 
 
-chart = MeanAnalyzer('POOL', 'SWK', start='2022-01-01', end='2024-09-13', interval='1d', show_signals=False)
-
-chart.plot()
-
-
 
 
